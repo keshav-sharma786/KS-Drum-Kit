@@ -29,7 +29,7 @@ allKeys.forEach((key) => {
     // console.log(audio);
     setTimeout(() => {
       key.classList.remove("playing");
-    }, 100);
+    }, 200);
     key.classList.add("playing");
     if (audio) {
       audio.currentTime = 0;
