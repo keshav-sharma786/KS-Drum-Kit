@@ -9,7 +9,7 @@ window.addEventListener("keydown", function (e) {
 //   console.log(keyPressed);
   setTimeout(() => {
     keyPressed.classList.remove("playing");
-  }, 0.007);
+  }, 100);
   keyPressed.classList.add("playing");
   if (audio) {
     audio.currentTime = 0;
@@ -29,7 +29,7 @@ allKeys.forEach((key) => {
     // console.log(audio);
     setTimeout(() => {
       key.classList.remove("playing");
-    }, 200);
+    }, 0.007);
     key.classList.add("playing");
     if (audio) {
       audio.currentTime = 0;
