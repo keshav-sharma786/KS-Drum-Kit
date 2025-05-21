@@ -63,7 +63,7 @@ This project helped me understand:
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/yourusername/ks-drum-kit.git
+   git clone https://github.com/keshav-sharma786/ks-drum-kit.git
 cd ks-drum-kit
 
 
