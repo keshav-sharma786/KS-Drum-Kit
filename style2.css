@@ -47,6 +47,9 @@ body {
   border: 8px solid maroon;
   border-radius: 20px;
   margin-top: 30px;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 #w {
@@ -159,4 +162,3 @@ body {
     height: 100%;
   }
 }
-
